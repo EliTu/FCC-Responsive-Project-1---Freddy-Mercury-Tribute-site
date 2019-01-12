@@ -1,0 +1,376 @@
+                /* GENERAL SECTION */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgba(20, 12, 12, 0.192);
+    width: 100%;
+    font-family: 'EB Garamond', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.76);
+    margin: auto 0;
+    display: block;
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 80%;
+    background-color: rgb(245, 239, 239);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 0px;
+}
+
+                /* Page Head Section */
+
+#header-container {
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-style: initial;
+}
+#header-container h1 {
+    font-family: 'Ranga', sans-serif;
+    color: rgba(175, 13, 13, 0.863);
+    font-size: 55px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.year {
+    display: block;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+#header-container h3 {
+    font-family: 'Ranga', sans-serif;
+    color: rgba(170, 17, 17, 0.5);
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+/*  NAVBAR Section */
+#navbar-container {
+   width: 99%;
+   margin: 30px auto;
+   padding: 6px 0;
+   background-color: rgba(226, 226, 226, 0.582);
+   border-radius: 12px;
+   overflow: auto;
+   position: sticky;
+   top: 0;
+}
+#navbar-container ul{
+    width: 100%;
+    list-style-type: none;
+    margin: auto 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    box-sizing: border-box;
+}
+#navbar-container li {
+    margin: 0 auto;
+    padding: 1px 10px;
+    text-align: center;
+    transition: background-color .2s;
+}
+#navbar-container .navoption {
+    color: rgba(179, 32, 32, 0.856);
+    text-align: center;
+    padding: 2px 5px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+}
+#navbar-container .navoption:hover {
+    color: rgba(245, 239, 239, 0.61);
+}
+#navbar li:hover {
+    background-color: rgb(252, 141, 141);
+    border-radius: 12px;
+}
+#navbar a:hover {
+    font-size: 17px;
+    transition: font-size .3s;
+}
+#navbar li:active {
+    background-color: rgb(252, 6, 6);
+}
+
+            /* Main Image Container Section */
+
+#img-div {
+    width: 80%;
+    margin: 40px auto; 
+    background-color: rgba(226, 226, 226, 0.582);
+    text-align: center;
+    padding: 5px;
+    border-radius: 12px;
+}
+#image {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0px;
+    display: block;
+}
+#img-div figcaption {
+    color: black;
+    margin: 2px auto;
+    font-size: 17px;
+    font-style: oblique;
+    word-spacing: 1px;
+    padding: 2px;
+}
+.img-credit {
+    font-size: 14px;
+}
+
+            /* Main article container section */
+
+article {
+    text-align: justify;
+}
+
+#tribute-info {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+/* CONTAINERS */
+#early-years-info, #with-queen-info, #solo-info, #final-years-info, #legacy-info {
+    width: 95%;
+    margin: 40px auto;
+    padding: 0px;
+    background-color: rgba(226, 226, 226, 0.582);
+    border-radius: 12px;
+    line-height: 27px;
+}
+#tribute-info li {
+    width: 90%;
+    list-style-type: none;
+    margin: 7px 2px;
+    padding: 0px;
+    font-size: 17px;
+}
+
+/* HEADERS */
+#article-main-header {
+    width: 70%;
+    color: rgba(175, 13, 13, 0.863);
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+#tribute-info .sub-header, .h5-header {
+    color: rgba(175, 13, 13, 0.863);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+/* Inline Texts preferences */
+.years {
+  font-size: 19px;
+  font-weight: bolder;  
+  color: rgba(175, 13, 13, 0.863);
+}
+.name, .music {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+/* Feature disabled - makes the text look too 'loaded'
+.important {
+    font-weight: bold;
+} */
+
+.container .beam-button {
+    width: 5%;
+    color: rgba(175, 13, 13, 0.863);
+    margin: 5px;
+    padding: 2px;
+    
+}
+.container .button-container {
+    text-align: right;
+    margin: 3px 10px;
+}
+.beam-button:hover {
+    color: rgba(5, 8, 4, 0.726);
+    background-color: rgba(252, 141, 141, 0.719);
+    border-radius: 12px;
+}
+.beam-button:active {
+        background-color: rgb(252, 6, 6);
+    }
+
+/* Blockquote preferences */
+#tribute-info blockquote {
+    width: 40%;
+    font-size: 22px;
+    font-style: italic;
+}
+#q-1958, #q-1982, #q-1985 {
+    float: right;
+    margin-right: 100px;
+} 
+#q-1971, #q-1986, #q-1991 {
+    float: left;
+}
+blockquote .quote {
+    display: block;
+    margin-top: 10px;
+    margin-right: 90px;
+}
+
+            /* Second Image Container */
+#second-img-container {
+    width: 70%;
+    margin: 30px auto; 
+    background-color: rgba(226, 226, 226, 0.582);
+    text-align: center;
+    padding: 5px;
+    border-radius: 12px;
+}
+#second-img {
+    max-width: 800px;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#second-img-container figcaption {
+    color: black;
+    margin: 2px auto;
+    font-size: 17px;
+    font-style: oblique;
+    word-spacing: 1px;
+    padding: 2px;
+}
+
+            /* Links Section */
+#tribute-links {
+    width: 70%;
+    background-color: rgba(226, 226, 226, 0.582);
+    margin: 30px auto;
+    border-radius: 12px;
+}
+#links-header {
+    width: 70%;
+    color: rgba(175, 13, 13, 0.863);
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+#tribute-links h5 {
+    font-size: 20px;
+    padding: 0;
+}
+#tribute-links ul {
+    list-style: circle;
+    line-height: 30px;
+}
+.link-entry a:hover {
+    text-decoration: underline;
+    color: rgba(228, 7, 7, 0.562);
+}
+
+              /* Footer Section */
+#footer-div {
+    width: 100%;
+    background-color: rgb(245, 239, 239);
+    margin-top: 30px;
+    padding: 0.5px;
+}
+#footer-credit {
+    text-align: center;
+    color: rgba(175, 13, 13, 0.863);
+    word-spacing: 2px;
+}
+
+                /* MEDIA QUERIES */
+
+@media Only screen and (max-width: 1000px) {
+    /* For larger mobile devices */
+    #main {
+        width: 95%;
+    }
+    #navbar-container {
+        width: 70%;
+        position: static;
+    }
+    #navbar-container ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #navbar-container li {
+        margin: 7px 5px;
+    }
+    #navbar-container .navoption {
+        font-size: 17px;
+    }
+    #tribute-info {
+        width: 99%;
+    }
+    #early-years-info, #with-queen-info, #solo-info, #final-years-info, #legacy-info {
+        width: 85%;
+    }
+    #tribute-info blockquote {
+        text-align: start;
+        font-size: 3vw;
+        width: 40%;
+        padding: 20px;
+        margin: 20px;
+        margin-right: 0;
+    }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile devices */
+    #main {
+        width: 99%;
+    }
+    #navbar-container {
+        width: 60%;
+    }
+    #navbar-container ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #navbar-container li {
+        margin: 7px 5px;
+    }
+    #navbar-container .navoption {
+        font-size: 17px;
+    }
+    #tribute-info {
+        width: 99%;
+    }
+    #early-years-info, #with-queen-info, #solo-info, #final-years-info, #legacy-info {
+        width: 92%;
+    }
+    #tribute-info blockquote {
+        text-align: start;
+        font-size: 4vw;
+        width: 40%;
+        padding: 20px;
+        margin: 20px;
+        margin-right: 0;
+    }
